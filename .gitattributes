@@ -1,5 +1,1 @@
-.Jalen_bts.mp4 filter=lfs diff=lfs merge=lfs -text
-.Madison_beer.mp4 filter=lfs diff=lfs merge=lfs -text
-.Stonybrook.mp4 filter=lfs diff=lfs merge=lfs -text
-.uconnWins.mp4 filter=lfs diff=lfs merge=lfs -text
-.umass.mp4 filter=lfs diff=lfs merge=lfs -text
+*.mp4 filter=lfs diff=lfs merge=lfs -text
