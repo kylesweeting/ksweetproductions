@@ -1005,6 +1005,49 @@ html {
   }
 }
 
+/* MINIMAL FIXES - Add these specific rules only */
+
+/* Fix skills boxes to be same size and centered text */
+.skill-category {
+  height: 120px !important; /* Force same height */
+  display: flex !important;
+  flex-direction: column !important;
+  justify-content: center !important;
+  text-align: center !important;
+}
+
+.skill-category h4 {
+  text-align: center !important;
+  margin-bottom: 0.8rem !important;
+}
+
+.skill-category p {
+  text-align: center !important;
+  margin: 0 !important;
+}
+
+/* Fix contact stats centering */
+.contact-stats {
+  max-width: 400px !important;
+  margin: 0 auto !important;
+}
+
+/* Mobile skills fixes */
+@media (max-width: 480px) {
+  .skill-category {
+    height: 100px !important;
+  }
+  
+  .skills-grid .skill-category:last-child {
+    grid-column: 1 / -1 !important;
+    max-width: 250px !important;
+    justify-self: center !important;
+  }
+  
+  .contact-stats {
+    max-width: 250px !important;
+  }
+}
 
 
 
